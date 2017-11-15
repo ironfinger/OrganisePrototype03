@@ -24,6 +24,11 @@ class ViewController: UIViewController {
         loginButton.layer.cornerRadius = 10
     }
     
+    // MARK: - Actions
+    @IBAction func signUpButtonTapped(_ sender: Any) {
+        performSegue(withIdentifier: "signInSegue", sender: nil)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
