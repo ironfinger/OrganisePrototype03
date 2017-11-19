@@ -20,6 +20,7 @@ class SignUpLoginViewController: UIViewController {
     @IBOutlet weak var subView: UIView!
     
     var signInProgress = 0 // This controls the progess of how far the user has got through the signUp Process
+    var signInProcedure = "";
     
     // MARK: - View Setup
     override func viewDidLoad() {
@@ -35,6 +36,11 @@ class SignUpLoginViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
+        if (signInProcedure == "login") {
+            signUpLoginLabel.text = "Login"
+        }else if (signInProcedure != "login") {
+            signUpLoginLabel.text = "Sign Up!"
+        }
         viewSetup()
     }
     
@@ -123,6 +129,7 @@ class SignUpLoginViewController: UIViewController {
     // Mark: - Actions
     @IBAction func emailTextFieldEdited(_ sender: Any) {
         print("Changed")
+        
         signInProgressCheck()
     }
     

@@ -16,6 +16,7 @@
 		E326C7BD1FB1DD0B00B72499 /* OrganisePrototype03.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E326C7BB1FB1DD0B00B72499 /* OrganisePrototype03.xcdatamodeld */; };
 		E326C7BF1FB1DD0B00B72499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E326C7BE1FB1DD0B00B72499 /* Assets.xcassets */; };
 		E326C7C21FB1DD0B00B72499 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E326C7C01FB1DD0B00B72499 /* LaunchScreen.storyboard */; };
+		E3E6D2A31FC0816700F9F4A9 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E6D2A21FC0816700F9F4A9 /* AddTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		E326C7BE1FB1DD0B00B72499 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E326C7C11FB1DD0B00B72499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E326C7C31FB1DD0B00B72499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3E6D2A21FC0816700F9F4A9 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				E326C7B41FB1DD0B00B72499 /* AppDelegate.swift */,
-				E326C7B61FB1DD0B00B72499 /* ViewController.swift */,
-				E3216A291FBBC0C300D54D20 /* SignUpLoginViewController.swift */,
+				E3E6D2A11FC0773600F9F4A9 /* ViewControllers */,
 				E326C7B81FB1DD0B00B72499 /* Main.storyboard */,
 				E326C7BE1FB1DD0B00B72499 /* Assets.xcassets */,
 				E326C7C01FB1DD0B00B72499 /* LaunchScreen.storyboard */,
@@ -86,6 +87,16 @@
 				E326C7BB1FB1DD0B00B72499 /* OrganisePrototype03.xcdatamodeld */,
 			);
 			path = OrganisePrototype03;
+			sourceTree = "<group>";
+		};
+		E3E6D2A11FC0773600F9F4A9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E326C7B61FB1DD0B00B72499 /* ViewController.swift */,
+				E3216A291FBBC0C300D54D20 /* SignUpLoginViewController.swift */,
+				E3E6D2A21FC0816700F9F4A9 /* AddTaskViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		F0E42BB52121A516619FC453 /* Pods */ = {
@@ -233,6 +244,7 @@
 				E326C7BD1FB1DD0B00B72499 /* OrganisePrototype03.xcdatamodeld in Sources */,
 				E326C7B71FB1DD0B00B72499 /* ViewController.swift in Sources */,
 				E326C7B51FB1DD0B00B72499 /* AppDelegate.swift in Sources */,
+				E3E6D2A31FC0816700F9F4A9 /* AddTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
